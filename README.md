@@ -20,12 +20,12 @@ For the following functions, fill in the table with the types of the inputs and 
 
 | Function                                         | types of inputs                  | type of output                |
 | ------------------------------------------------ | -------------------------------- | ----------------------------- |
-| `function addFive(number) { return number + 5}`  |                                  |                               |
-| `function sum(a, b) { return a + b }`            |                                  |                               |
-| `function concat(a, b) { return "Yes!" + a + b + "!" }` |                           |                               |
-| `document.querySelector`                         |                                  |                               |
-| `function sayHi(a) { return "Hi, " + a.b + "!" }`                     |                                  |                               |
-| `function compare(a) { return a.length > 5 }`            |                                  |                               |
+| `function addFive(number) { return number + 5}`  |       all datatypes              |    integer, except for string |
+| `function sum(a, b) { return a + b }`            |               ""                 |              ""               |
+| `function concat(a, b) { return "Yes!" + a + b + "!" }` |      all data types       |         all string            |
+| `document.querySelector`                         |tag name of element of document   |  that element, all of it      |
+| `function sayHi(a) { return "Hi, " + a.b + "!" }`|             all data types       |           undefined           |
+| `function compare(a) { return a.length > 5 }`    | everything except null, undefined|            boolean            |
 
 
 ### "Shapes" of `Object`s
